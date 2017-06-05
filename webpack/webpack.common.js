@@ -20,7 +20,7 @@ module.exports = {
     rules: [
       { test: /\.ts$/, loader: '@ngtools/webpack' },
       { test: /\.css$/, loader: 'raw-loader' },
-      { test: /\.html$/, loader: 'raw-loader' },
+      { test: /\.html$/, loader: 'raw-loader' }
     ]
   },
   plugins: [
@@ -31,7 +31,7 @@ module.exports = {
       { from: 'node_modules/bootstrap/dist/js/bootstrap.min.js', to: 'assets/js' },
       { from: 'node_modules/jquery/dist/jquery.min.js', to: 'assets/js' },
       { from: 'node_modules/bootstrap/dist/fonts', to: 'assets/fonts' },
-      {from: 'src/assets', to: '' },
+      {from: 'src/assets', to: 'assets' }
     ])
   ]
 };
