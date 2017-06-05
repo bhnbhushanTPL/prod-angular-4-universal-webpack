@@ -1,3 +1,6 @@
+.banner-carousel{
+  position: relative;
+}
 h1.slider-heading{
   font-family: 'gotham_boldregular',sans-serif;
   font-size: 60px;
@@ -20,8 +23,9 @@ h3.slider-form-heading{
   position: absolute;
   z-index: 9999;
   top: 330px;
-  width: 100%;
   text-align: center;
+  left: 30px;
+  right: 30px;
 }
 .slider-form{
   margin-top: 25px;
