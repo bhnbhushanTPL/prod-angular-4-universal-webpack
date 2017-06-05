@@ -1,3 +1,3 @@
 export class Constant{
-  public static url ='http://54.202.78.236:8080';
+  public static url ='http://54.191.239.19:8080';
 }
