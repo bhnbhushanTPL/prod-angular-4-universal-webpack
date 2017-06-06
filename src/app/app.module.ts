@@ -11,6 +11,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SliderComponent } from './components/slider/slider.component';
+import { scssTrial } from './components/scssTrial/scssTrial.component';
 
 //declare var $ : JQueryStatic;
 
@@ -25,13 +26,14 @@ import { SliderComponent } from './components/slider/slider.component';
       { path: 'about', component: AboutComponent}
     ])
 	],
-	declarations: [ 
+	declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
     HeaderComponent,
     FooterComponent,
-    SliderComponent
+    SliderComponent,
+    scssTrial
     ],
   exports: [ AppComponent ]
 })
