@@ -4,7 +4,6 @@
   "main": "server.js",
   "repository": {},
   "scripts": {
-    "postinstall": "npm run build:prod",
     "start": "node dist/server/server.js",
     "build": "webpack",
     "build:aot": "webpack --env.aot --env.client & webpack --env.aot --env.server",

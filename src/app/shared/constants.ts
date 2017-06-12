@@ -1,3 +1,3 @@
 export class Constant{
-  public static url ='http://34.211.112.243:8080';
+  public static url ='http://localhost:8080';
 }

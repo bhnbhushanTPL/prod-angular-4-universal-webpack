@@ -26,7 +26,7 @@ module.exports = {
       {
         test: /\.scss$/,
         exclude: /node_modules/,
-        loaders: ['raw-loader', 'sass-loader'] // sass-loader not scss-loader
+        loaders: ['raw-loader', 'sass-loader']
       }
     ]
   },
@@ -39,13 +39,13 @@ module.exports = {
       { from: 'node_modules/jquery/dist/jquery.min.js', to: 'assets/js' },
       { from: 'node_modules/bootstrap/dist/fonts', to: 'assets/fonts' },
       {from: 'src/assets', to: 'assets' }
-    ]),
-    new CompressionPlugin({
-      asset: "[path].gz[query]",
-      algorithm: "gzip",
-      test: /\.js$|\.css$|\.html$/,
-      threshold: 10240,
-      minRatio: 0.8
-    })
+    ])
+    // new CompressionPlugin({
+    //   asset: "[path].gz[query]",
+    //   algorithm: "gzip",
+    //   test: /\.js$|\.css$|\.html$/,
+    //   threshold: 10240,
+    //   minRatio: 0.8
+    // })
   ]
 };
