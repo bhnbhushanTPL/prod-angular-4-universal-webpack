@@ -15,14 +15,14 @@ export class HomeComponent implements OnInit {
   data = { advantages : {}, popularChats: {}, buildSection: {}, graphSection: {} };
 
   constructor(meta: Meta, title: Title, public http: Http) {
-    title.setTitle('Predictika | Home');
+    title.setTitle('Home');
 
     meta.addTags([
       {
         name: 'author', content: 'techprimelab.com'
       },
       {
-        name: 'keywords', content: 'chatbot'
+        name: 'keywords', content: 'about angular 4 seo'
       },
       {
         name: 'description', content: 'This is my great description.'

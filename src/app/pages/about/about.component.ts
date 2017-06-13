@@ -10,17 +10,17 @@ export class AboutComponent implements OnInit {
 
   constructor(meta: Meta, title: Title) {
 
-    title.setTitle('About | Predictika');
+    title.setTitle('About');
 
     meta.addTags([
       {
         name: 'author', content: 'techprimelab.com'
       },
       {
-        name: 'keywords', content: 'about chatbots'
+        name: 'keywords', content: 'angular 4 seo'
       },
       {
-        name: 'description', content: 'create chatbots'
+        name: 'description', content: 'angular 4 universal with webpack'
       },
     ])
 
